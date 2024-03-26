@@ -1,13 +1,12 @@
 package com.april.messagingwithkafika;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootTest
-class MessagingWithKafikaApplicationTests {
-
-	@Test
-	void contextLoads() {
+@SpringBootApplication
+public class MessagingWithKafikaApplicationTests {
+	public static void main(String[] args) {
+		SpringApplication.run(MessagingWithKafikaApplicationTests.class, args);
 	}
 
 }
